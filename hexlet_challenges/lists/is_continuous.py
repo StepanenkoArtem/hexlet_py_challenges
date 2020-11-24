@@ -9,11 +9,6 @@ def is_continuous_sequence(sequense):
     Главное условие — отсутствие пропусков чисел.
     Последовательность из одного числа не может считаться возрастающей.
 
-    Args:
-        sequense ([type]): [description]
-
-    Returns:
-        [type]: [description]
     """
     if len(sequense) <= 1:
         return False
